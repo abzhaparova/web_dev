@@ -1,0 +1,135 @@
+
+body{
+    background-color:rgb(215, 220, 230);
+    margin: 0;
+}
+
+.h4{
+  margin-left: 410px; 
+  color:aliceblue; 
+  margin-bottom: -55px; 
+  word-spacing: 238px;
+}
+
+.p{
+  font-style: Arial; 
+  font-weight: bold; 
+  margin-top: -12px;
+}
+
+.main {
+    background-color:#5682a3;
+    box-sizing: border-box;
+    padding: 117px;
+    width: 100%;
+    position: relative;
+    top: -8px;
+    font-family: sans-serif;
+  }
+
+.info {
+    background-color: white;
+    box-sizing: border-box;
+    height: 335px;
+    width: 30%;
+    position: relative;
+    top: -65px;
+    left: 485px;
+    text-align: center;
+    color: #222;
+    padding: 20px;
+    padding-right: 260px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+input {
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgb(187, 186, 186);
+    display: inline;
+  }
+
+.codeinput{
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgb(187, 186, 186);
+    
+  }
+
+  .code__input {
+    display: flex;
+    justify-content: space-between;
+    width: 285px;
+  }
+  
+  .codeinput-1 {
+    width: 25%;
+  }
+  .codeinput-2 {
+    width: 70%;
+  }
+  .countryinput-1{
+    width: 285px;
+  }
+  .country{   
+      margin-right: 100px;
+      font-family: sans-serif;
+      font-size: 11px;
+      color: #999;
+      padding: 40px;
+      padding-top: 5px;
+      line-height: 2em;   
+  }
+  .phone{
+    font-family: sans-serif;
+    margin-top: -75px;
+    font-size: 11px;
+    color: #999; 
+    margin-left: 125px;
+    font-weight: initial;
+  }
+
+  .number{
+    font-family: sans-serif;
+    margin-top: -12px;
+    font-size: 11px;
+    color: #999;
+    margin-left: 165px;
+    font-weight: initial;
+  }
+
+  .code{
+    margin-top: -15px;
+    margin-right:100px;
+    font-size: 11px;
+    color: #999;
+    font-weight: initial;
+    padding: 40px;
+    padding-top: 0px;
+    line-height: 2em; 
+    font-family: sans-serif;
+  }
+
+.choose{
+    color: #999;
+    font-size: 12px;
+    margin-left: 40px;
+    margin-right: -165px;
+    text-align: left;
+    line-height: 20px;
+    font-weight: initial;
+    font-family: sans-serif;
+}
+
+.end{
+    color: #84a2bc;
+    text-align: center;
+    margin-top: -65px; 
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+a{
+  color: #84a2bc;
+}
