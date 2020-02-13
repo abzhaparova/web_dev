@@ -1,0 +1,28 @@
+.navbar{
+    background-color:rgb(54, 31, 185);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    align-items: center;
+}
+
+.cart-icon {
+    font-size: 32px;
+    background: none;
+    border: none;
+    color: white;
+    transition: all 0.1s ease-in;
+}
+
+.cart-icon:hover {
+    transform: scale(1.1);
+}
+
+.cart-icon:active {
+    color: coral;
+}
+
+.cart-icon:focus {
+    outline: none;
+}
