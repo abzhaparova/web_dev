@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="products-container">
+        <div class="product-card" *ngFor="let product of products">
+            <img class="product-img" src="{{product.img}}" alt="">
+
+            <h3>
+               <a target="_blank" href="{{ product.url }}">{{ product.name }}</a>
+            </h3>
+            <p> {{ product.price }} </p>
+            <p> {{ product.description}} </p>
+
+            <button (click)="onClick(product)">ADD</button>
+            <button  id=tlgbutton><a id =telegram href="https://telegram.me/share/url?url={{product.href}}&text={{product.name}}">Share telegram</a></button>
+        </div>
+    </div>
+
+    <div class="cart" *ngIf="cartService.isVisible">
+        <h2>My Cart</h2>
+        <div class="cart-item" *ngFor="let item of cartService.getItems()">
+            <h4>{{ item.product.name }} x {{ item.quantity }}</h4>
+            <p> {{ item.product.price * item.quantity | currency}} </p>
+            <button class="remove-btn" (click)="removeItem(item)"><i class="fas fa-trash"></i></button>
+        </div>
+    </div>
+</div>
